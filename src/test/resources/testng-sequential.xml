@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sequential Baseline" parallel="none" thread-count="1" verbose="1">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="dev"/>
+    <test name="Sequential All Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.CartTest"/>
+        </classes>
+    </test>
+</suite>

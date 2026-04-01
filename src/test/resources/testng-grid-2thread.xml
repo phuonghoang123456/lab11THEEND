@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Grid Suite - 2 threads" parallel="tests" thread-count="2" verbose="1">
+    <test name="Chrome - LoginTest">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="env" value="dev"/>
+        <classes><class name="tests.LoginTest"/></classes>
+    </test>
+    <test name="Chrome - CartTest">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="env" value="dev"/>
+        <classes><class name="tests.CartTest"/></classes>
+    </test>
+</suite>

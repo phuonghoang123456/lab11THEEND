@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Grid Suite - 4 threads" parallel="tests" thread-count="4" verbose="1">
+    <test name="Chrome - LoginTest">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="env" value="dev"/>
+        <classes><class name="tests.LoginTest"/></classes>
+    </test>
+    <test name="Chrome - CartTest">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="env" value="dev"/>
+        <classes><class name="tests.CartTest"/></classes>
+    </test>
+    <test name="Firefox - LoginTest">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="env" value="dev"/>
+        <classes><class name="tests.LoginTest"/></classes>
+    </test>
+    <test name="Firefox - CartTest">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="env" value="dev"/>
+        <classes><class name="tests.CartTest"/></classes>
+    </test>
+</suite>

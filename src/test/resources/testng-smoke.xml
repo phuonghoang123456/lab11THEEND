@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SmokeSuite" parallel="methods" thread-count="2" verbose="1">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="dev"/>
+    <test name="Smoke Tests">
+        <classes>
+            <class name="tests.SampleParallelTest"/>
+        </classes>
+    </test>
+</suite>
