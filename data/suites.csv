@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Apr 28 05:37:36 UTC 2026","Tue Apr 28 05:37:36 UTC 2026","35","SmokeSuite","Smoke Tests","tests.SampleParallelTest","tests.SampleParallelTest","testLogin_Success","testLogin_Success",""
-"passed","Tue Apr 28 05:37:36 UTC 2026","Tue Apr 28 05:37:36 UTC 2026","14","SmokeSuite","Smoke Tests","tests.SampleParallelTest","tests.SampleParallelTest","testLogin_Fail_TakeScreenshot","testLogin_Fail_TakeScreenshot",""
-"passed","Tue Apr 28 05:37:39 UTC 2026","Tue Apr 28 05:37:39 UTC 2026","4","SmokeSuite","Smoke Tests","tests.SampleParallelTest","tests.SampleParallelTest","testTitle_Check","testTitle_Check",""
+"passed","Wed Apr 29 05:33:13 UTC 2026","Wed Apr 29 05:33:13 UTC 2026","9","SmokeSuite","Smoke Tests","tests.SampleParallelTest","tests.SampleParallelTest","testTitle_Check","testTitle_Check",""
+"passed","Wed Apr 29 05:33:12 UTC 2026","Wed Apr 29 05:33:12 UTC 2026","24","SmokeSuite","Smoke Tests","tests.SampleParallelTest","tests.SampleParallelTest","testLogin_Success","testLogin_Success",""
+"passed","Wed Apr 29 05:33:12 UTC 2026","Wed Apr 29 05:33:12 UTC 2026","4","SmokeSuite","Smoke Tests","tests.SampleParallelTest","tests.SampleParallelTest","testLogin_Fail_TakeScreenshot","testLogin_Fail_TakeScreenshot",""
